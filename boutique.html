@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
+    ">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="conteneur">
+        <header>
+            <h1> 
+                <i class="fas fa-dice"></i> 
+                    Ma Boutique 
+                <i class="fas fa-dice"></i>
+            </h1>
+        </header>
+        <section>
+            <div id="barre-laterale">
+                <p class="filtres">
+                    <i class="fas fa-sort"></i>
+                    Filtres :
+                </p>
+                <form id="formulaireFiltres">
+                    <label>Categorie</label>
+                    <select id="categorie">
+                        
+                    </select>
+                    <br>
+                    <label>Couleur</label>
+                    <select id="couleur">
+                        
+                    </select>
+                    <br>
+                    <label>Prix Max</label>
+                    <input type="text" id="prixMax">
+                    <hr>
+                    <input 
+                        type="submit"
+                        id="rechercher"
+                        value="rechercher"
+                    />
+                </form>
+            </div>
+            
+            <div id="affichageProduits">
+                Ma DIV
+            </div>
+        </section>
+        <footer>
+            Thalia Valerie Repesse - Coypright &copy
+            <span id="copyright"></span>
+            
+        </footer>
+
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
